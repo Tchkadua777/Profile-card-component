@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Top {
+  position: absolute;
+  z-index: -1;
+  left: 33.5%;
+  top: 40%;
+  transform: translate(-70%, -80%);
+}
+
+.bottom {
+  position: absolute;
+  z-index: -1;
+  left: 73%;
+  top: 88%;
+  transform: translate(-50%, -33%);
+}
+.container {
+  width: 350px;
+  height: 374px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  position: relative;
+}
+
+.container > img {
+  border-radius: 15px 15px 0 0;
+}
+
+div > div > img {
+  position: absolute;
+  width: 96px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  left: 36.5%;
+  bottom: 50%;
+}
+
+.name {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e3349;
+  margin-top: 60px;
+  margin-left: 112px;
+  padding-bottom: 13px;
+}
+
+.age {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b7082;
+}
+
+.City {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 36px;
+  color: #6b7082;
+  margin-left: 150px;
+  padding-bottom: 28px;
+}
+.line {
+  background-color: #e8e9ec;
+  height: 0.1rem;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.Followers {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e3349;
+  margin-left: 10px;
+  padding-bottom: 4px;
+}
+.Follower {
+  font-size: 10px;
+  font-weight: 400;
+  color: #6b7082;
+  letter-spacing: 1.5px;
+}
+
+.Like {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e3349;
+  padding-bottom: 4px;
+}
+
+.Likes {
+  font-size: 10px;
+  font-weight: 400;
+  color: #6b7082;
+  letter-spacing: 1.5px;
+  margin-left: 8px;
+}
+
+.p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e3349;
+  padding-bottom: 4px;
+}
+
+.photos {
+  font-size: 10px;
+  font-weight: 400;
+  color: #6b7082;
+  letter-spacing: 1.5px;
+}
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
